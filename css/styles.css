@@ -1,0 +1,30 @@
+.bg{
+    height: 500px;
+    background-color: #cccccc;;
+    background-image: url('../images/paper.gif');
+    background-repeat: no-repeat;
+    background-position: 50px 20px;/*left top right bottom*/
+}
+.g1:hover{
+    font-size: 20px;
+}
+
+.link1{
+    display:none;
+}
+.g1:hover .link1{
+    display: block;
+}
+.div0{
+    background-color: #cccccc;
+}
+.div1{
+    background-color: aliceblue;
+    float:left;
+    width: 50%;
+}
+.div2{
+    background-color: aqua;
+    width: 50%;
+    float:right;
+}
