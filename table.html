@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+            #content .item:first-child{
+                color: red;
+            }
+            #content .item:last-child{
+                color: red;
+            }
+            
+            #content2 .item:nth-child(odd){
+                color: blue;
+            }
+            #content2 .item:nth-child(even){
+                color: yellow;
+            }
+            #content3 .item:nth-child(3n+0){
+                color: brown;
+            }
+        </style>
+    </head>
+    <body>
+        <table style="width: 100%; border: 1px;">
+            <thead>
+                <tr>
+                    <td>A</td>
+                    <td>B</td>
+                    <td>C</td>
+                    <td>D</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div id="content">
+            <p class="item">1</p>
+            <p class="item">2</p>
+            <p class="item">3</p>
+            <p class="item">4</p>
+            <p class="item">5</p>
+            <p class="item">6</p>
+            <p class="item">7</p>
+            <p class="item">8</p>
+            <p class="item">9</p>
+            <p class="item">10</p>
+            <p class="item">11</p>
+            <p class="item">12</p>            
+        </div>
+        <div id="content2">
+            <p class="item">1</p>
+            <p class="item">2</p>
+            <p class="item">3</p>
+            <p class="item">4</p>
+            <p class="item">5</p>
+            <p class="item">6</p>
+            <p class="item">7</p>
+            <p class="item">8</p>
+            <p class="item">9</p>
+            <p class="item">10</p>
+            <p class="item">11</p>
+            <p class="item">12</p>            
+        </div>
+        <div id="content3">
+            <p class="item">1</p>
+            <p class="item">2</p>
+            <p class="item">3</p>
+            <p class="item">4</p>
+            <p class="item">5</p>
+            <p class="item">6</p>
+            <p class="item">7</p>
+            <p class="item">8</p>
+            <p class="item">9</p>
+            <p class="item">10</p>
+            <p class="item">11</p>
+            <p class="item">12</p>            
+        </div>
+    </body>
+</html>
